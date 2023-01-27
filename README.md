@@ -55,42 +55,11 @@ Expected Output:
 
 ### Building UI
 .4 
-Test: add customer name input 
+   # Test: add customer name input 
 Code:
 Expected Output:
 
-.5 Add features: toppings, customers, multiple pizzas, etc.
-Test:
+.9 
+Test: Add features: name submit, reset, see total, accept total
 Code:
 Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-
-Describe:
-Test:
-Code:
-Expected Output:
-

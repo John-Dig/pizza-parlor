@@ -1,0 +1,77 @@
+body {
+  background-color:olive;
+  font-variant: small-caps;
+  color:firebrick
+}
+
+h1{
+  font-size: 4rem;
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+}
+label{
+  font-size: 1.25rem;
+}
+button, select{
+  font-style:italic;
+  color:green;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: .25rem;
+  margin: 1rem;
+}
+img{
+  width:250px;
+  padding: .5rem;
+  border-radius: 5px;
+  border-style:groove;
+  background-color: darkgreen;
+  margin:1rem;
+
+}
+.hidden{
+  display:none;
+}
+#customer-input{
+  width: 200px;
+  padding-top: 200px;
+  padding-left: 100px;
+  float:right;
+  font-size: 2rem;
+}
+#joe {
+float:right;
+
+}
+#joey-text {
+  font-size: 1.5rem;
+  color:black;
+  width: 300px;
+  float:right;
+  margin:20px;
+
+}
+#pizza-maker {
+  clear:right;
+  border-style:dotted;
+  border-width: 10px;
+  text-align: center;
+}
+
+
+#cart {
+  font-size: 2rem;
+  margin: 3rem;
+  border-style:inset;
+  padding: 1rem;
+  height: 8rem;
+}
+#name-click{
+  font-size: 1rem;
+  background-color: brown;
+  color:gainsboro
+}
