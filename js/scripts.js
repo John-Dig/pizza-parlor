@@ -8,7 +8,10 @@ function Pizza() {
 
 Pizza.prototype.addUpOrder =function() {
   let sizeCost;
-  if (this.size === "small"){
+  if (this.size === "" || this.toppings === []){
+    return "";
+  }
+  else if (this.size === "small"){
     sizeCost = 3;
   }
   else if (this.size === "medium"){
@@ -77,17 +80,18 @@ window.addEventListener("load", function(e){
   })  
   this.document.getElementById("total-order-button").addEventListener("click", function(){
     document.getElementById("price").innerText = "Total Cost: " + order.addUpOrder();
-    document.querySelector(".hidden").classList.toggle("hidden");
+    //document.querySelector(".hidden").classList.toggle("hidden");
   })
-  this.document.getElementById("complete-order-button").addEventListener("click", function() {
-    //final display
-    document.querySelector(".hidden").classList.toggle("hidden");
-  })
+  //cant use button, mystery hiding/ showing activity going on
+  // this.document.getElementById("complete-order-button").addEventListener("click", function() {
+  //   //final display
+  //   document.querySelector(".hidden").classList.toggle("hidden");
+  // })
   this.document.getElementById("reset").addEventListener("click", function() {
-    document.querySelector(".hidden").classList.toggle("hidden");
+    //document.querySelector(".hidden").classList.toggle("hidden");
     let customer = document.getElementById("name-input").value;
     order.newCustomer('');
-    console.log("customer: " + customer);
+    console.log(order.cost);
     order.updateCheckoutDisplay();
     //order.newCustomer(
     
