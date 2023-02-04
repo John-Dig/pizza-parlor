@@ -52,14 +52,3 @@ Expected Output: Richard:, $10.50.
 Test: output fully functional and ready for UI
 Code:
 Expected Output:
-
-### Building UI
-.4 
-   # Test: add customer name input 
-Code:
-Expected Output:
-
-.9 
-Test: Add features: name submit, reset, see total, accept total
-Code:
-Expected Output:
