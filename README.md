@@ -48,7 +48,5 @@ Test: outputs customer name and price of order
 Code: checkout("Richard");
 Expected Output: Richard:, $10.50.
 
-.3
-Test: output fully functional and ready for UI
-Code:
-Expected Output:
+
+output fully functional and ready for UI
